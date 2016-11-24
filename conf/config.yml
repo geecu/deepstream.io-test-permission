@@ -1,0 +1,14 @@
+auth:
+   type: file
+   options:
+     path: ./users.yml
+     hash: 'md5'
+     iterations: 100
+     keyLength: 32
+
+permission:
+  type: config
+  options:
+    path: ./permissions.yml
+    maxRuleIterations: 3
+    cacheEvacuationInterval: 60000

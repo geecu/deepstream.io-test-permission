@@ -1,0 +1,10 @@
+provider:
+  # hashed string "provider"
+  password: "na4a5RZKd4IHc38piIue8/J3tPGpRfBroPpfE/sMhYw=saX1ka1FuhGt90RjrBjz2Q=="
+  serverData:
+    role: provider
+client:
+  # hashed string "client"
+  password: "/Xyn4B59MWcmuTT6DY+fcPjpU0/xW9Wv40QfK6JWPIk=coujE08ZzfVySncZr2kTxg=="
+  serverData:
+    role: client

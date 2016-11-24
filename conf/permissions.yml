@@ -1,0 +1,21 @@
+record:
+  "*":
+    create: "user.data.role === 'provider'"
+    write: "user.data.role === 'provider'"
+    read: "user.data.role === 'provider'"
+    delete: "user.data.role === 'provider'"
+    listen: "user.data.role === 'provider'"
+  "test/$id":
+    read: true
+event:
+  "*":
+    publish: true
+    subscribe: true
+    listen: true
+rpc:
+  "*":
+    provide: true
+    request: true
+presence:
+  "*":
+    allow: true
